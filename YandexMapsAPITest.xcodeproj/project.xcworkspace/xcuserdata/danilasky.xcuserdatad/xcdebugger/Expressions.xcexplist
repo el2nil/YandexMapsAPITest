@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "SearchTableViewController.tableView(UITableView, didSelectRowAt : IndexPath) -&gt; ():SearchTableViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "searchResults[indexPath.row]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "SearchTableViewController.tableView(UITableView, viewForHeaderInSection : Int) -&gt; UIView?:SearchTableViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "headerCell.frame.size">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "SearchTableViewController.yandexGeocoger(didRecieveGeocodeData : [YandexGeocoder.GeoObject]) -&gt; ():SearchTableViewController.swift">
+      </ContextState>
+      <ContextState
+         contextName = "AppDelegate.locationManager(CLLocationManager, didUpdateLocations : [CLLocation]) -&gt; ():AppDelegate.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "currentLocation">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "static YandexGeocoder.parseGeocodeDictionary([String : Any]) -&gt; [YandexGeocoder.GeoObject]?:YandexGeocoder.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "geoObjectsResultArray">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "StartViewController.viewDidLoad() -&gt; ():StartViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "(UIApplication.shared.delegate as! AppDelegate).currentLocation">
+            </PersistentString>
+            <PersistentString
+               value = "params">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "PointsToRouteViewController.prepare(for : UIStoryboardSegue, sender : Any?) -&gt; ():PointsToRouteViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "pointA">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "YandexGeocoder.parseGeocodeDictionary([String : Any]) -&gt; [YandexGeocoder.GeoObject]?:YandexGeocoder.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "point.substring(to: point.characters.index(of: &quot; &quot;)!)">
+            </PersistentString>
+            <PersistentString
+               value = "CLLocationDegrees(point.substring(from: point.characters.index(of: &quot; &quot;)!))">
+            </PersistentString>
+            <PersistentString
+               value = "point.substring(from: point.characters.index(of: &quot; &quot;)!)">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "PointsToRouteViewController.fromSearchBar.didset:PointsToRouteViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "searchField?.textAlignment">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "SearchTableViewController.tableView(UITableView, cellForRowAt : IndexPath) -&gt; UITableViewCell:SearchTableViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "searchResults">
+            </PersistentString>
+            <PersistentString
+               value = "indexPath.row">
+            </PersistentString>
+            <PersistentString
+               value = "tableView.dequeueReusableCell(withIdentifier: &quot;Address&quot;, for: indexPath)">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "SearchTableViewController.updateSearchResults(for : UISearchController) -&gt; ():SearchTableViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "searchResults">
+            </PersistentString>
+            <PersistentString
+               value = "searchController.searchBar.text">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "RouteViewController.viewDidLoad() -&gt; ():RouteViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "pointA.point">
+            </PersistentString>
+            <PersistentString
+               value = "pointB.point">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

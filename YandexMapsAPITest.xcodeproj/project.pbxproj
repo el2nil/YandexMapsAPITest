@@ -1,0 +1,362 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4F38296F1D9A3FB400A7AF4D /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F38296E1D9A3FB400A7AF4D /* Extensions.swift */; };
+		4F5EB4471D9576F6004C9E8C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F5EB4461D9576F6004C9E8C /* AppDelegate.swift */; };
+		4F5EB4491D9576F6004C9E8C /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F5EB4481D9576F6004C9E8C /* StartViewController.swift */; };
+		4F5EB44C1D9576F6004C9E8C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F5EB44A1D9576F6004C9E8C /* Main.storyboard */; };
+		4F5EB44E1D9576F6004C9E8C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F5EB44D1D9576F6004C9E8C /* Assets.xcassets */; };
+		4F5EB4511D9576F6004C9E8C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F5EB44F1D9576F6004C9E8C /* LaunchScreen.storyboard */; };
+		4F79ECBA1D96D92E0060F8B4 /* CustomSearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F79ECB91D96D92E0060F8B4 /* CustomSearchBar.swift */; };
+		4F79ECBC1D97A5BF0060F8B4 /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F79ECBB1D97A5BF0060F8B4 /* ButtonView.swift */; };
+		4F79ECBE1D98105E0060F8B4 /* YandexGeocoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F79ECBD1D98105E0060F8B4 /* YandexGeocoder.swift */; };
+		4F83BF2E1D9D76C900982533 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 4F83BF2D1D9D76C900982533 /* README.md */; };
+		4F98169F1D987EF7000C316B /* RouteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F98169E1D987EF7000C316B /* RouteViewController.swift */; };
+		4FDDE5D61D95BDEB006E4F46 /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = 4FDDE5D41D95BDEB006E4F46 /* index.html */; };
+		4FDDE5D71D95BDEB006E4F46 /* yandexAPI.js in Resources */ = {isa = PBXBuildFile; fileRef = 4FDDE5D51D95BDEB006E4F46 /* yandexAPI.js */; };
+		4FDDE5DB1D95C665006E4F46 /* SearchController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FDDE5DA1D95C665006E4F46 /* SearchController.swift */; };
+		4FDDE5DD1D95C72F006E4F46 /* PointsToRouteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FDDE5DC1D95C72F006E4F46 /* PointsToRouteViewController.swift */; };
+		4FDDE5DF1D966C28006E4F46 /* SearchTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FDDE5DE1D966C28006E4F46 /* SearchTableViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4F38296E1D9A3FB400A7AF4D /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		4F5EB4431D9576F6004C9E8C /* YandexMapsAPITest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YandexMapsAPITest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F5EB4461D9576F6004C9E8C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4F5EB4481D9576F6004C9E8C /* StartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
+		4F5EB44B1D9576F6004C9E8C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4F5EB44D1D9576F6004C9E8C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4F5EB4501D9576F6004C9E8C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4F5EB4521D9576F6004C9E8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4F79ECB91D96D92E0060F8B4 /* CustomSearchBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomSearchBar.swift; sourceTree = "<group>"; };
+		4F79ECBB1D97A5BF0060F8B4 /* ButtonView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
+		4F79ECBD1D98105E0060F8B4 /* YandexGeocoder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YandexGeocoder.swift; sourceTree = "<group>"; };
+		4F83BF2D1D9D76C900982533 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
+		4F98169E1D987EF7000C316B /* RouteViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RouteViewController.swift; sourceTree = "<group>"; };
+		4FDDE5D41D95BDEB006E4F46 /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
+		4FDDE5D51D95BDEB006E4F46 /* yandexAPI.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = yandexAPI.js; sourceTree = "<group>"; };
+		4FDDE5DA1D95C665006E4F46 /* SearchController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchController.swift; sourceTree = "<group>"; };
+		4FDDE5DC1D95C72F006E4F46 /* PointsToRouteViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PointsToRouteViewController.swift; sourceTree = "<group>"; };
+		4FDDE5DE1D966C28006E4F46 /* SearchTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchTableViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4F5EB4401D9576F6004C9E8C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4F5EB43A1D9576F6004C9E8C = {
+			isa = PBXGroup;
+			children = (
+				4F5EB4451D9576F6004C9E8C /* YandexMapsAPITest */,
+				4F5EB4441D9576F6004C9E8C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4F5EB4441D9576F6004C9E8C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4F5EB4431D9576F6004C9E8C /* YandexMapsAPITest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4F5EB4451D9576F6004C9E8C /* YandexMapsAPITest */ = {
+			isa = PBXGroup;
+			children = (
+				4F5EB44A1D9576F6004C9E8C /* Main.storyboard */,
+				4F79ECBB1D97A5BF0060F8B4 /* ButtonView.swift */,
+				4FDDE5DA1D95C665006E4F46 /* SearchController.swift */,
+				4F98169E1D987EF7000C316B /* RouteViewController.swift */,
+				4F5EB4481D9576F6004C9E8C /* StartViewController.swift */,
+				4F38296E1D9A3FB400A7AF4D /* Extensions.swift */,
+				4FDDE5DC1D95C72F006E4F46 /* PointsToRouteViewController.swift */,
+				4F79ECBD1D98105E0060F8B4 /* YandexGeocoder.swift */,
+				4FDDE5DE1D966C28006E4F46 /* SearchTableViewController.swift */,
+				4F79ECB91D96D92E0060F8B4 /* CustomSearchBar.swift */,
+				4F5EB4581D9577AC004C9E8C /* Supporting Files */,
+			);
+			path = YandexMapsAPITest;
+			sourceTree = "<group>";
+		};
+		4F5EB4581D9577AC004C9E8C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4FDDE5D41D95BDEB006E4F46 /* index.html */,
+				4FDDE5D51D95BDEB006E4F46 /* yandexAPI.js */,
+				4F5EB4461D9576F6004C9E8C /* AppDelegate.swift */,
+				4F5EB44D1D9576F6004C9E8C /* Assets.xcassets */,
+				4F5EB44F1D9576F6004C9E8C /* LaunchScreen.storyboard */,
+				4F5EB4521D9576F6004C9E8C /* Info.plist */,
+				4F83BF2D1D9D76C900982533 /* README.md */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4F5EB4421D9576F6004C9E8C /* YandexMapsAPITest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F5EB4551D9576F6004C9E8C /* Build configuration list for PBXNativeTarget "YandexMapsAPITest" */;
+			buildPhases = (
+				4F5EB43F1D9576F6004C9E8C /* Sources */,
+				4F5EB4401D9576F6004C9E8C /* Frameworks */,
+				4F5EB4411D9576F6004C9E8C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YandexMapsAPITest;
+			productName = YandexMapsAPITest;
+			productReference = 4F5EB4431D9576F6004C9E8C /* YandexMapsAPITest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4F5EB43B1D9576F6004C9E8C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = el2Nil;
+				TargetAttributes = {
+					4F5EB4421D9576F6004C9E8C = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = ANP32MANBL;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 4F5EB43E1D9576F6004C9E8C /* Build configuration list for PBXProject "YandexMapsAPITest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4F5EB43A1D9576F6004C9E8C;
+			productRefGroup = 4F5EB4441D9576F6004C9E8C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4F5EB4421D9576F6004C9E8C /* YandexMapsAPITest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4F5EB4411D9576F6004C9E8C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F5EB4511D9576F6004C9E8C /* LaunchScreen.storyboard in Resources */,
+				4FDDE5D61D95BDEB006E4F46 /* index.html in Resources */,
+				4FDDE5D71D95BDEB006E4F46 /* yandexAPI.js in Resources */,
+				4F5EB44E1D9576F6004C9E8C /* Assets.xcassets in Resources */,
+				4F5EB44C1D9576F6004C9E8C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4F5EB43F1D9576F6004C9E8C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F79ECBE1D98105E0060F8B4 /* YandexGeocoder.swift in Sources */,
+				4F79ECBC1D97A5BF0060F8B4 /* ButtonView.swift in Sources */,
+				4FDDE5DD1D95C72F006E4F46 /* PointsToRouteViewController.swift in Sources */,
+				4FDDE5DF1D966C28006E4F46 /* SearchTableViewController.swift in Sources */,
+				4F79ECBA1D96D92E0060F8B4 /* CustomSearchBar.swift in Sources */,
+				4F38296F1D9A3FB400A7AF4D /* Extensions.swift in Sources */,
+				4F98169F1D987EF7000C316B /* RouteViewController.swift in Sources */,
+				4F5EB4491D9576F6004C9E8C /* StartViewController.swift in Sources */,
+				4F5EB4471D9576F6004C9E8C /* AppDelegate.swift in Sources */,
+				4F83BF2E1D9D76C900982533 /* README.md in Sources */,
+				4FDDE5DB1D95C665006E4F46 /* SearchController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4F5EB44A1D9576F6004C9E8C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4F5EB44B1D9576F6004C9E8C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4F5EB44F1D9576F6004C9E8C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4F5EB4501D9576F6004C9E8C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4F5EB4531D9576F6004C9E8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4F5EB4541D9576F6004C9E8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4F5EB4561D9576F6004C9E8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ANP32MANBL;
+				INFOPLIST_FILE = YandexMapsAPITest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = home.skynet.el2Nil.YandexMapsAPITest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		4F5EB4571D9576F6004C9E8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ANP32MANBL;
+				INFOPLIST_FILE = YandexMapsAPITest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = home.skynet.el2Nil.YandexMapsAPITest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4F5EB43E1D9576F6004C9E8C /* Build configuration list for PBXProject "YandexMapsAPITest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F5EB4531D9576F6004C9E8C /* Debug */,
+				4F5EB4541D9576F6004C9E8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4F5EB4551D9576F6004C9E8C /* Build configuration list for PBXNativeTarget "YandexMapsAPITest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F5EB4561D9576F6004C9E8C /* Debug */,
+				4F5EB4571D9576F6004C9E8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4F5EB43B1D9576F6004C9E8C /* Project object */;
+}
